@@ -8,11 +8,20 @@ Describe the purpose and main features of your travel and booking site. Highligh
 
 ## Features
 
-- Destination Exploration: Browse through a wide range of travel destinations with detailed information.
-- Accommodation Listings: View available accommodations, including hotels, resorts, and more.
-- Booking System: Make reservations for selected accommodations.
-- User Accounts: Register and log in to manage bookings and personalize the experience.
+Sure, here are some common features that you might consider implementing in a travel and booking site:
 
+- User Authentication: Allow users to register and log in to the site.
+- Destination Exploration: Provide detailed information about each destination, including attractions, weather, and local activities.
+- Accommodation Listings: Showcase a variety of accommodations, such as hotels, resorts, vacation rentals, etc.
+- Search and Filters: Enable users to search for destinations and accommodations based on various criteria (e.g., location, price range, amenities).
+- Booking System: Allow users to select their desired accommodation and book it.
+- User Profiles: Allow users to create and manage profiles.
+- Review and Rating System: Enable users to leave reviews and ratings for accommodations they have booked.
+- Notifications: Send email or in-app notifications for booking confirmations, reminders, and updates.
+- Responsive Design: Ensure the website is accessible and usable across different devices (desktops, tablets, and mobile phones).
+- Security Measures: Implement SSL for secure data transmission.
+- Support and Help Center: Include a contact form or chat support for user inquiries.
+    
 ## Getting Started
 
 Provide instructions on setting up and running the project locally.
@@ -24,6 +33,10 @@ List any software, frameworks, or tools that users need to have installed before
 ### Installation
 
 Step-by-step guide on how to install and set up the project on a local machine.
-git clone 
+git clone https://github.com/ThengdeNitin/Travel_and_Booking.git
+install xammp server and start it
+go to browser typ localhost/Travel_and_Booking/index.php
+
+
 
 
