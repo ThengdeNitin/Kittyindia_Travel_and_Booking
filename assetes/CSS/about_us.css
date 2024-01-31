@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    padding: 10px;
+    height: 300px;
+    width: 100%;
+    background-image: url(../home/about_us/timo-stern-iUBgeNeyVy8-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.text_banner{
+    font-family: 'Satisfy', cursive;
+    color: white;
+    line-height: 1.6;
+    font-size: 58px;
+    font-weight: 900;
+    text-transform:uppercase;
+    text-shadow: 5px 5px 7px black;
+    margin-top: 50px;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-40px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/**************************************************************************************/
+.wr67Ueq{
+  display: inline-block;
+}
+
+
+
+
+
+
+/***************************************************************************************/
+
+.oIws92U{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.sy2uRq{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  transition: none;
+}
+.ks63YST{
+  height: 450px;
+
+}
+.card-img-top{
+  height: 450px;
+}
+
+.jsi83wR{
+  text-align: center;
+  margin-top: 140px;
+}
+
+/***********************************************************************************/
+.sReT64Y{
+  margin-bottom:50px;
+}
+.JS72aw{
+  text-align: center;
+}

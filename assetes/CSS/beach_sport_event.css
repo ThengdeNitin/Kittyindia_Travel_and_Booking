@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.carousel-caption{
+    margin-bottom: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(14, 14, 170);
+}
+
+.top_eventh3{
+     text-align: center;
+     font-family: cursive;
+     font-weight: bold;
+     text-shadow: 0px 0px 5px rgb(183, 227, 23);
+}
+.hr1{
+    display: block;
+    width: 15%;
+    height: 3px;
+    margin: 20px auto;
+    text-align: center;
+    border: 0;
+    background: #ebdd1c;
+}
+
+h1 {
+    color: hsl(0, 28%, 95%);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+    letter-spacing: 5px;
+    cursor: pointer;
+  }
+  
+  h1 span {
+    transition: 0.5s ease-out;
+  }
+  h1:hover span:nth-child(1) {
+    margin-right: 5px;
+  }
+  h1:hover span:nth-child(1):after {
+    content: "'";
+  }
+  h1:hover span:nth-child(2) {
+    margin-left: 30px;
+  }
+  h1:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #8af6f6, 0 0 20px #5634ec, 0 0 40px #f57979;
+  }
+
+
+/* section 2 start  */
+.ceo-message-sec img:hover{
+    transform: scale(1.0);
+    transition: transform 0.2s ease;
+}
+.ceo-message-sec {
+    float: left;
+    width: 100%;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.ceo-message-sec img {
+    float: left;
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+img {
+    overflow-clip-margin: content-box;
+}
+.ceo-message {
+    background: #fff none repeat scroll 0 0;
+    border: 3px solid #e4e4e4;
+    display: table-cell;
+    float: left;
+    margin-left: -25%;
+    margin-top: 50px;
+    padding: 60px 60px;
+    position: relative;
+    vertical-align: middle;
+    width: 125%;
+}
+.ceo-message > span {
+    float: left;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    width: 100%;
+    color: rgb(142, 89, 241);
+}
+.ceo-message > h3 {
+    color:orangered;
+    float: left;
+    font-family: cursive;
+    font-size: 27px;
+    line-height: 37px;
+    margin: 0 0 16px;
+    width: 100%;
+    font-weight: bold;
+}
+.ceo-message > p {
+    float: left;
+    width: 100%;
+}
+p {
+    font-family: Nunito;
+    color: #666666;
+    line-height: 26px;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
+
+
+.event-content-left .ceo-message {
+    margin-left: 0;
+    z-index: 1;
+}
+
+
+/* section 2 end */
+@media (max-width: 767px){
+.ceo-message-sec .row > div {
+    float: left;
+    width: 100%;
+}
+
+.ceo-message-sec .row > div {
+    display: table;
+}
+}
+@media (max-width: 767px){
+.ceo-message {
+    margin: 0;
+    width: 100%;
+}
+@media (max-width: 1200px){
+.ceo-message {
+    padding: 50px 40px;
+}
+}
+}
+@media (max-width: 980px){
+.block {
+    padding: 80px 0 0px 0;
+}
+}
